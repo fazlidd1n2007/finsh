@@ -1,0 +1,158 @@
+.container{
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header__img{
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.header__list{
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__item{
+    list-style: none;
+}
+
+.header__link2{
+    margin: 0;
+    text-decoration: none;
+    margin: 20px;
+    color: #83888F;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}
+
+
+
+/*hero*/
+
+
+.hero .container{
+    margin: 0 auto;
+    background-image: url(../img/Bitmap..png);
+    width: 1280px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    border-radius: 5px;
+ 
+}
+
+
+.hero__item{
+    list-style: none;
+}
+
+.hero__heading{
+    width: 445px;
+    color: #FEFCF7;
+    font-family: Fraunces 9pt;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; /* 100% */
+    margin-left: 86px;
+    margin-top: 86px;
+}
+
+.hero__text{
+    width: 405px;
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-left: 86px;
+}
+
+.button{
+    width: 217px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #66D2CF;
+    margin-left: 86px;
+    margin-top: 50px;
+    
+}
+
+.button__link{
+    text-decoration: none;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; /* 138.889% */
+}
+
+
+
+/*hero2*/
+
+
+.hero2 .container{
+    width: 1440px;
+    height: 3642px;
+    margin-left: -00px;
+   margin-top: 150px;
+}
+
+.hero2-fon{
+    background-image: url(../img/orqa-fon.png);
+    background-repeat: no-repeat;
+}
+
+.hero2__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero2__item{
+    list-style: none;
+  
+}
+
+.hero2__img{
+    width: 255px;
+    height: 193px;
+    flex-shrink: 0;
+}
+
+.hero2__heading{
+    width: 255px;
+    color: #333D4B;
+    text-align: center;
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+}
+
+.hero2__text{
+    width: 255px;
+    color: #333D4B;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
